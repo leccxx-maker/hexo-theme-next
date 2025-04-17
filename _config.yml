@@ -41,7 +41,7 @@ custom_file_path:
 
 favicon:
   small: ../images/favicon-16x16.png
-  medium: /images/favicon-32x32.png
+  medium: ../images/favicon-32x32.png
   apple_touch_icon: /images/apple-touch-icon.png
   safari_pinned_tab: /images/logo.svg
   #android_manifest: /images/manifest.json
@@ -119,14 +119,14 @@ darkmode:
 # External url should start with http:// or https://
 menu:
   home: / ||
-  #about: /about/ || fa fa-user
+  #about: /about/ || 
   #tags: /tags/ || fa fa-tags
   #categories: /categories/ || fa fa-th
   archives: /archives/ ||
   tags: /tags/ ||
   categories: /categories/ ||
   #schedule: /schedule/ || fa fa-calendar
-  #sitemap: /sitemap.xml || fa fa-sitemap
+  # sitemap: /sitemap.xml || 
   #commonweal: /404/ || fa fa-heartbeat
 
 # Enable / Disable menu icons / item badges.
@@ -500,7 +500,7 @@ math:
   # Default (true) will load mathjax / katex script on demand.
   # That is it only render those page which has `mathjax: true` in Front-matter.
   # If you set it to false, it will load mathjax / katex srcipt EVERY PAGE.
-  per_page: true
+  per_page: false
 
   # hexo-renderer-pandoc (or hexo-renderer-kramed) required for full MathJax support.
   mathjax:
@@ -510,7 +510,7 @@ math:
 
   # hexo-renderer-markdown-it-plus (or hexo-renderer-markdown-it with markdown-it-katex plugin) required for full Katex support.
   katex:
-    enable: false
+    enable: true
     # See: https://github.com/KaTeX/KaTeX/tree/master/contrib/copy-tex
     copy_tex: false
 
@@ -815,9 +815,9 @@ pdf:
 
 # Mermaid tag
 mermaid:
-  enable: false
+  enable: true
   # Available themes: default | dark | forest | neutral
-  theme: forest
+  theme: dark
 
 
 # ---------------------------------------------------------------
